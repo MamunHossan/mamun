@@ -1,0 +1,84 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: poppins;
+	scroll-behavior: smooth;
+	background-image: url(background.jpg);
+
+}
+*{
+	box-sizing: border-box;
+
+}
+
+ul{
+	list-style: none;
+
+}
+a{
+	text-decoration: none;
+}
+#main{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.02);
+	position: fixed;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: 1;
+	background-color: #FFFFFF;
+
+}
+.logo img{
+	height: 45px;
+	width: auto;
+	border-radius: 60px;
+}
+nav{
+	background-image: url(slid2.jpg);
+}
+nav ul{
+	display: flex;
+
+}
+nav ul li a{
+	height: 50px;
+	line-height: 52px;
+	margin: 2px;
+	padding: 0px 22px;
+	display: flex;
+	font-size: 1.0rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	color: #585b5b;
+
+
+}
+.hey{
+	color: #39bfbd;
+	font-weight: 500;
+	font-size: 0.9rem;
+	border-bottom: 2px solid #40c6c4;
+
+}
+nav ul li a:hover{
+	background-color: yellow;
+	color: #FFFFFF;
+	box-shadow: 5px 10px 30px rgba(64, 198, 196, 0.3);
+	transition: all ease 0.2s;
+}
+h1{
+	text-align: center;
+	color: navy;
+}
+p{
+	text-align: center;
+	color: black;
+}
